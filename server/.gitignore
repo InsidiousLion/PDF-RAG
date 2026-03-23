@@ -1,0 +1,38 @@
+# env files
+.env
+.env.local
+.env.*
+
+#uploads folder
+uploads/
+
+# node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# build outputs
+.next/
+dist/
+build/
+
+# logs
+logs/
+*.log
+
+# OS files
+.DS_Store
+
+# PM2
+.pm2/
+
+# uploads (for your PDF-RAG)
+uploads/
+*.pdf
+
+# docker
+*.env.docker
+
+# vscode
+.vscode/
