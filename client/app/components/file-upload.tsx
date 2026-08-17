@@ -24,7 +24,7 @@ const FileUploadComponent: React.FC = () => {
 
     try {
       const res = await fetch(
-        `api/upload/pdf`,
+        `/api/upload/pdf`,
         {
           method: "POST",
           body: formData,
