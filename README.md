@@ -15,7 +15,7 @@ A simple RAG (Retrieval-Augmented Generation) application that allows users to a
 
 - TypeScript
 - LangChain
-- LLaMA 3.3 70B
+- openai/gpt-oss-120b
 - Gemini Embeddings
 - Qdrant
 - BullMQ
@@ -48,6 +48,6 @@ Similarity Search
  ↓
 Relevant Chunks
  ↓
-LLaMA 3.3 70B
+openai/gpt-oss-120b
  ↓
 Answer
